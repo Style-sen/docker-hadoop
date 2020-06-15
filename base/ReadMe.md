@@ -13,7 +13,12 @@ HADOOP_CONF_DIR
 MULTIHOMED_NETWORK=1    # 多链路接入cluster nodes are connected to more than one network interface
 USER
 ```
-4. 启动entrypoint.
+4. 创建了两个目录（可以外挂）
+```shell script
+RUN mkdir /opt/hadoop-$HADOOP_VERSION/logs
+RUN mkdir /hadoop-data
+```
+5. 启动entrypoint.
 
 ### entrypoint.sh
 
