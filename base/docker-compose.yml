@@ -1,4 +1,7 @@
 version: '3'
 
 services:
-  image: bde2020/hadoop-base:2.0.0-hadoop3.2.1-java8
+  hadoop_base:
+    image: bde2020/hadoop-base:2.0.0-hadoop3.2.1-java8
+    env_file:
+      - ../hadoop.env

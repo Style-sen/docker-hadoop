@@ -26,7 +26,7 @@ RUN mkdir /hadoop-data
 
 | 配置文件(配置模块) | 配置选项 | 功能 |
 |--|--|--|
-| core-site.xml   | CORE_CONF | |
+| core-site.xml   | fs.defaultFS |  |
 | hdfs-site.xml   | HDFS_CONF | |
 | yarn-site.xml   | YARN_CONF | |
 | httpfs-site.xml | HTTPFS_CONF| |
