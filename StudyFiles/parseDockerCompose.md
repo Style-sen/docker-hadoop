@@ -1,5 +1,22 @@
 ## 端口
 
+|servername|port|
+|--|--|
+|namenode|9870|
+|namenode|9000|
+|datanode|9870|
+|resourcemanager|9000|
+|resourcemanager|9870|
+|resourcemanager|9864|
+|nodemanager|9000|
+|nodemanager|9870|
+|nodemanager|9864|
+|nodemanager|8088|
+|historyserver|9000|
+|historyserver|9870|
+|historyserver|9864|
+|historyserver|8088|
+
 ## 共有的配置
 
 | 配置模块 | 配置KEY | 配置VALUE | 功能 |
@@ -48,5 +65,15 @@
 |               | mapreduce.framework.name | yarn
 |               | mapreduce.map.env | HADOOP_MAPRED_HOME=/opt/hadoop-3.2.1/
 
+## 不同服务不同配置
 
+### namenode
+
+### datanode
+
+### resourcemanager
+
+### nodemanager
+
+### historyserver
 
